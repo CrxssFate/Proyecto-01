@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+@media screen and (min-width:200px) {
+*    
+}
+
+span{
+    color:aqua
+}
+
+footer a{
+    text-transform: uppercase;
+}
+.Tienda{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.principal{
+    border-top-style: solid;
+    border-color: #e1e1e1;
+    border width: 1px;
+    padding: 20px 0px 20px 0px;
+}
+
+.hero{
+    background-image: url(Imagenes+Ecommerce/Imagenes\ Ecommerce/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.contenedor{
+    padding: 20px 0px;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: aliceblue;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border:solid;
+    color:aqua;
+}
+.contenedor1{
+    max-width:1200px;
+    margin:0 auto;
+    font-size: 150%;
+}
+
+.lista-categorias{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.textos{
+    padding-left: 45%;
+}
+
+#lista-articulos{
+    list-style: none;
+    display:grid;
+    grid-template-columns: repeat(2, auto);
+
+}
+#lista-articulos img{
+    max-width: 99%;
+}
+
+h2{
+    color: aqua;
+}
+
+h3{
+    color: aqua;
+}
+.principal a{
+    font-size: 150%;
+}
+.solido{
+    text-decoration: underline;
+}
+.textito1{
+       font-size:150%;
+       color:aqua;
+}
